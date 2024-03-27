@@ -1,0 +1,523 @@
+html,
+body {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	background-color: #000;
+	font-family: sans-serif;
+}
+
+.wrapper {
+	min-height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+.fa-solid {
+	color: #ffffff;
+}
+
+h3 {
+	font-size: 22px;
+}
+
+a,
+li {
+	text-decoration: none;
+	list-style-type: none;
+	color: inherit;
+}
+
+
+.nav_logo {
+	width: 200px;
+	padding-top: 10px;
+
+}
+
+header {
+	position: fixed;
+	width: 100%;
+	z-index: 1;
+}
+
+.header__inner {
+	text-align: center;
+	background-color: #000;
+	padding-bottom: 20px;
+
+}
+
+.nav__list {
+	display: flex;
+}
+
+ul {
+	display: flex;
+	justify-content: space-between;
+	margin: 0;
+	padding: 0;
+}
+
+.nav__link a:hover {
+	color: rgb(172, 62, 62);
+}
+
+.nav__link:hover {
+	transition-duration: 0.3s;
+
+}
+
+.nav__title,
+.nav__list {
+	font-size: 18px;
+	text-transform: uppercase;
+	color: #fff;
+}
+
+footer {
+	position: relative;
+	top: 100px;
+	color: #fff;
+	padding-bottom: 100px;
+}
+
+.footer__content {
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: 20px;
+
+}
+
+.img_flex {
+	display: flex;
+	align-items: center;
+	width: 100%;
+}
+
+.forms_logo {
+	width: 400px;
+}
+
+.forms_logo img {
+	width: 100%;
+}
+
+.img_flex img {
+	position: relative;
+	left: 80px;
+
+}
+
+.footer-text {
+	width: 300px;
+	text-align: justify;
+	font-size: 14px;
+}
+
+.footer_list {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+}
+
+.footer__link-hover:hover {
+	color: rgb(79, 122, 79);
+
+}
+
+.footer__maps {
+	display: flex;
+}
+
+.footer-text {
+	width: 300px;
+	display: inline-block;
+}
+
+.end__revies {
+	background: url(https://avatars.mds.yandex.net/get-altay/1024093/badge_rating_light_4.4/orig);
+}
+
+
+.fa-solid,
+.fa-regular {
+	padding-right: 10px;
+}
+
+.end__text {
+	padding: 15px 0;
+	color: #fff;
+	font-size: 14px;
+	text-align: center;
+}
+
+table {
+	color: #fff;
+	font-size: 18px;
+}
+
+td {
+	border-bottom: 1px dashed rgba(79, 122, 79);
+	padding-top: 5px;
+}
+
+.table_footer-time td {
+	padding-top: 10px;
+}
+
+.container {
+	max-width: 1300px;
+	margin: 0 auto;
+}
+
+.main {
+	flex-grow: 1;
+	margin: 0 auto;
+}
+
+.video__item {
+	width: 100%;
+	padding-top: 200px;
+
+}
+
+.news__title {
+	color: #fff;
+	padding-top: 5px;
+}
+
+
+.news__img-text {
+	flex-direction: column;
+	display: flex;
+
+}
+
+.news__content {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+
+}
+
+
+
+.news__content img {
+	width: 400px;
+}
+
+.news-txt-up {
+	padding-top: 10px;
+
+}
+
+.news-txt-up:hover {
+	color: rgb(172, 62, 62);
+	transition-duration: 0.3s;
+}
+
+.news-txt-down {
+	padding-bottom: 20px;
+	font-size: 14px;
+}
+
+.news-txt-up,
+.news-txt-down {
+	color: #fff;
+}
+
+.title_dishes {
+	color: #fff;
+	padding-top: 30px;
+}
+
+
+
+.dishes__img:hover {
+	transform: scale(1.1);
+	transition-duration: 0.5s;
+	overflow: hidden;
+
+}
+
+.dishes__text {
+	color: #fff;
+}
+
+.dishes__block {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+
+}
+
+.dishes__img {
+	width: 630px;
+
+}
+
+.dishes__content {
+	overflow: hidden;
+	margin: 15px 0;
+
+}
+
+.dishes__text-block {
+	display: flex;
+	flex-direction: column;
+	background-color: #222222;
+	padding: 20px;
+	position: relative;
+	top: -5px;
+
+}
+
+.dishes__link_block {
+	color: #fff;
+	display: flex;
+	justify-content: space-around;
+	gap: 32px;
+
+}
+
+.dishes_link {
+	border: 1px solid #fff;
+	padding: 20px;
+	width: 45%;
+	text-align: center;
+
+}
+
+
+.dishes_link:hover {
+	transform: scale(1.03);
+	transition-duration: 0.5s;
+	cursor: pointer;
+}
+
+
+#time {
+	padding: 10px 50px 10px 10px;
+}
+
+#name {
+	padding: 10px 50px 10px 10px;
+}
+
+#guest {
+	padding: 10px 50px 10px 10px;
+}
+
+#phone {
+	padding: 10px 50px 10px 10px;
+}
+
+#mail {
+	color: #fff;
+
+}
+
+.forms {
+	display: flex;
+	flex-direction: column;
+}
+
+.forms_title {
+	color: #fff;
+	padding: 20px 0;
+}
+
+.forms__content_block {
+	width: 60%;
+}
+
+.forms__address-time {
+	display: flex;
+	justify-content: space-between;
+	padding: 0;
+	margin: 0;
+
+}
+
+#date,
+#time {
+	width: 44%;
+	padding-left: 10px;
+
+}
+
+#date {
+	position: relative;
+	right: 5px;
+}
+
+.forms__guest {
+	display: flex;
+	gap: 7px;
+	justify-content: space-between;
+	padding-top: 10px;
+}
+
+#guest,
+#name,
+#phone {
+	width: 33%;
+
+}
+
+.forms__mail {
+	display: flex;
+	flex-direction: column;
+}
+
+#mail {
+	padding-top: 13px;
+	padding-bottom: 5px;
+	text-transform: uppercase;
+	font-size: 15px;
+}
+
+.forms__mail-input {
+	padding: 10px 50px 10px 10px;
+	margin-bottom: 10px;
+}
+
+.forms__text-agreement {
+	text-align: center;
+	color: #fff;
+
+}
+
+.forms__link {
+	color: #fff;
+	padding-top: 30px;
+	display: flex;
+	justify-content: center;
+
+}
+
+.forms__link a {
+	border: 1px solid #fff;
+	padding: 20px;
+	width: 100%;
+	text-align: center;
+}
+
+.forms__link a:hover {
+	transform: scale(1.03);
+	transition-duration: 0.5s;
+}
+
+
+
+@media (max-width: 1300px) {
+
+	.container {
+		max-width: 1100px;
+	}
+
+	.dishes_container {
+		display: flex;
+		justify-content: center;
+		padding-bottom: 20px;
+	}
+
+	.dishes__block {
+		flex-direction: column;
+	}
+
+	.title_dishes {
+		text-align: center;
+		padding-bottom: 10px;
+	}
+
+	.news__content {
+		justify-content: center;
+		gap: 50px;
+	}
+
+	.news__title {
+		text-align: center;
+	}
+
+	#date {
+		right: 0;
+	}
+
+}
+
+@media (max-width: 1200px) {
+
+	.container {
+		max-width: 1000px;
+	}
+
+	.news__content {
+		justify-content: center;
+		gap: 50px;
+	}
+
+	.news__title {
+		text-align: center;
+	}
+
+	.forms_logo img {
+		width: 70%;
+	}
+}
+
+@media (max-width: 1000px) {
+
+	.container {
+		max-width: 900px;
+	}
+
+	.forms_logo {
+		display: none;
+	}
+
+	.forms_title {
+		text-align: center;
+	}
+
+	.forms__content_block {
+		margin: 0 auto;
+	}
+}
+
+
+@media (max-width: 850px) {
+	.nav__list {
+		flex-wrap: wrap;
+		justify-content: center;
+		gap: 10px;
+	}
+
+	.dishes__img {
+		width: 500px;
+		}
+		#date {
+			width: 50%;
+		}
+
+		.footer-text {
+			width: 150px;
+		}
+}
+
+@keyframes anim-1 {
+	0% {
+		transform: scale(1);
+
+	}
+
+	50% {
+		transform: scale(1.1);
+	}
+
+	100% {
+		transform: scale(1);
+
+	}
+}
